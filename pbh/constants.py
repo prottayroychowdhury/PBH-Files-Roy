@@ -12,3 +12,4 @@ sigma_T = 6.65e-29
 alpha = 1 / 137
 lambda_ad = 0.25 * (3 / 5)**1.5
 lambda_iso = 0.25 * np.exp(1.5)
+alpha_B_ion, q = 1.8e-19, 0.86

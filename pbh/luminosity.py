@@ -7,7 +7,7 @@ def chi(z, mode):
     xe = x_e_pbh(z)
     if mode == "collisional": return (2 / (1 + xe))**12
     if mode == "photoionization": return np.ones_like(xe)
-    raise ValueError("mode must be 'collisional' or 'photoionization'")
+    raise ValueError("mode must be 'collisional' or 'photoionization'") 
 
 def Y_S(M, z, mode, v_rel=0):
     xe, ta, ch = x_e_pbh(z), tau(M, z, v_rel), chi(z, mode)

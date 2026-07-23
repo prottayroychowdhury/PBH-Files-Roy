@@ -1,3 +1,11 @@
+'''
+Author: Roy Chowdhury
+Description: We compute a self-consistent luminosity function which takes the radiation pressure feedback from the black hole into account,
+reducing the effective gravitational mass experienced by the infalling gas by a factor of (1 - L/L_Edd). The equation L_func(M_eff(L)) = L
+is solved to obtain this self-consistency. Notably, the effect of radiation pressure becomes significant for PBHs with subsonic relative velocity
+when the rest mass of the black hole reaches around 10^4 solar masses.
+'''
+
 import numpy as np
 import matplotlib.pyplot as plt
 from pbh import *
