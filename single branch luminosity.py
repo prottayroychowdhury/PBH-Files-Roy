@@ -11,11 +11,11 @@ in the 2017 paper.
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.optimize import brentq
-from pbh.constants import *
-from pbh.history import *
-from pbh.bondi import *
-from pbh.utils import *
-import pbh.luminosity as old
+from pbh17.constants import *
+from pbh17.history import *
+from pbh17.bondi import *
+from pbh17.utils import *
+import pbh17.luminosity as old
 
 E_ion = 13.6 * 1.6e-19
 

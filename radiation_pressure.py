@@ -8,7 +8,7 @@ when the rest mass of the black hole reaches around 10^4 solar masses.
 
 import numpy as np
 import matplotlib.pyplot as plt
-from pbh import *
+from pbh17 import *
 
 M_vals = np.logspace(0, 5, 220)
 z_vals = np.logspace(2, 5, 120)

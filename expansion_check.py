@@ -1,6 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
-from pbh import *
+from pbh17 import *
 
 def plot_tB_H(masses=mass_labels.keys()):
     z = np.logspace(0, 11, 1000)
